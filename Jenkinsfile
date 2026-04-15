@@ -2,8 +2,8 @@ pipeline {
     agent any
 
     environment {
-        DOCKERHUB_CREDENTIALS = 'pipeline'
-        IMAGE_NAME = 'pavankumarm7/new_docker_image'
+        DOCKERHUB_CREDENTIALS = 'Docker'
+        IMAGE_NAME = 'poorvik07/new_docker_image'
     }
 
     stages {
