@@ -1,5 +1,5 @@
 FROM eclipse-temurin:21-jdk
 WORKDIR /app
 COPY . /app
-RUN javac hello.java
+RUN javac HelloWorld.java
 CMD ["java","hello"]
